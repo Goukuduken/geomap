@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 10px;
+  font-family: sans-serif;
+  background:white;
+}
+.header {
+  margin-top: 50px;
+}
+.logo {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+}
+.Map {
+  height: 70vh;
+}
+.Nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Nav ul li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: rgb(148, 148, 148);
+  list-style: none;
+  margin: 20px;
+  transition: 0.5s;
+}
+.Nav ul li:hover {
+  cursor: pointer;
+  background: rgb(189, 125, 125);
+}
+.Nav ul li a {
+  position: relative;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgba(1, 2, 0, 0.445);
+}
+.map_content {
+  height: 100%;
+  text-align: center;
+}
+.map_content img {
+  min-width: 580px;
+  max-height: 100%;
+}
+.footer {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+.footer p {
+  font-size: 3rem;
+  margin-top: 25px;
+}
